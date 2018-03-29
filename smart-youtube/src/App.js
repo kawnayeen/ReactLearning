@@ -1,17 +1,25 @@
-import React, { Component } from 'react';
+import React, {Component} from 'react';
 import SearchBar from './components/search.bar';
-import './App.css';
+import VideoList from './components/video.list';
+import YTSearch from 'youtube-api-search';
 
 const API_KEY = 'AIzaSyDyPl-YqhqDwEHEAdSapsJCZgQbD9NFoGs';
 
 class App extends Component {
-  render() {
-    return (
-      <div>
-        <SearchBar/>
-      </div>
-    );
-  }
+    constructor(props) {
+        super(props);
+        this.state = {videos: []};
+        YTSearch({key: API_KEY, term: 'harun bukeniya'}, videos => this.setState({videos}));
+    }
+
+    render() {
+        return (
+            <div>
+                <SearchBar/>
+                <VideoList videos={this.state.videos}/>
+            </div>
+        );
+    }
 }
 
 export default App;
