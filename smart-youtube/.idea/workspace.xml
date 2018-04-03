@@ -23,11 +23,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="168">
               <caret line="8" column="12" lean-forward="false" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/build/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="669" lean-forward="false" selection-start-line="0" selection-start-column="669" selection-end-line="0" selection-end-column="669" />
               <folding />
             </state>
           </provider>
@@ -78,6 +88,7 @@
         <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/build/index.html" />
       </list>
     </option>
   </component>
@@ -118,6 +129,11 @@
             <path>
               <item name="smart-youtube" type="b2602c69:ProjectViewProjectNode" />
               <item name="smart-youtube" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="smart-youtube" type="b2602c69:ProjectViewProjectNode" />
+              <item name="smart-youtube" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="smart-youtube" type="b2602c69:ProjectViewProjectNode" />
@@ -257,12 +273,12 @@
       <workItem from="1522321230023" duration="1384000" />
       <workItem from="1522728448839" duration="3511000" />
       <workItem from="1522734601953" duration="474000" />
-      <workItem from="1522740685061" duration="3868000" />
+      <workItem from="1522740685061" duration="4021000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16150000" />
+    <option name="totallyTimeSpent" value="16303000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1850" y="44" width="1756" height="989" extended-state="0" />
@@ -307,14 +323,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/components/search.bar.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="34" lean-forward="false" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/video.list.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
@@ -741,6 +749,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="8" column="12" lean-forward="false" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="669" lean-forward="false" selection-start-line="0" selection-start-column="669" selection-end-line="0" selection-end-column="669" />
           <folding />
         </state>
       </provider>
